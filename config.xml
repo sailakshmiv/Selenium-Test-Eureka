@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XmltoJava name="Selenium_Automation">
+ 	<suite suitename="Eureka_Service" classname="Eureka_Service">
+     		<parameter name="Eureka_Service" testcase="title" param="" param1="" param2="" dependson=""/>
+     		<parameter name="Eureka_Service" testcase="login" param="" param1="" param2="" dependson=""/>
+     		<parameter name="Eureka_Service" testcase="add_board" param="" param1="" param2="" dependson=""/>
+     		<parameter name="Eureka_Service" testcase="logout" param="" param1="" param2="" dependson=""/> 
+	</suite>
+</XmltoJava>
+
+
+
+
+
