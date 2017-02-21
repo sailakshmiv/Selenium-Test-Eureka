@@ -46,7 +46,7 @@ import junit.framework.Assert;
 	Suite suite = new Suite();
 	WebDriver driver = suite.newDriver();
 	//static String url = "http://" + System.getProperty("APP_ENDPOINT");
-	static String url = "http://" + System.getenv("APP_ENDPOINT")+":"+ System.getenv("APP_PORT");	
+	static String url = "http://" + System.getenv("APP_ENDPOINT")+":"+ System.getenv("APP_PORT_8761");	
 	//static String url = "http://104.199.224.192:8761/";
 	@Parameters({"suiteName"})
 	@BeforeMethod
